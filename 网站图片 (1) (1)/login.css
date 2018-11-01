@@ -1,0 +1,141 @@
+.loginlogo{
+	width: 1200px;
+	height: 130px;
+	float: left;
+
+	margin-left: 82px;
+	margin-top: 32px;
+}
+.loginbtn{
+	width: 1200px;
+	height: 30px;
+	float: left;
+	margin-left: 82px;
+	text-align: center;
+	line-height: 30px;
+	
+}
+.loginbtn h1{
+	float: left;
+	font-size: 27px;
+	color: gray;
+	font-weight: normal;
+
+}
+.loginbtn a{
+	width: 130px;
+	height: 20px;
+	float: right;
+	color:#009c4c;
+	font-size: 18px;
+	line-height: 18px;
+}
+.loginbody{
+	width: 1200px;
+	height: 670px;
+	float: left;
+	margin-left: 82px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 30px 5px lightgray;
+	margin-bottom: 100px;
+}
+.loginbody p{
+	width: 1200px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: gray;
+	font-size: 15px;
+	margin-top: 24px;
+}
+.loginaddress{
+	width: 1200px;
+	height: 570px;
+	float: left;
+	border-bottom: 1px solid lightgray;
+}
+.loginaddress img{
+	width: 550px;
+	height:400px;
+	margin-top: 106px;
+	margin-left: 47px;
+	float: left;
+}
+.loginaddress .loginbox{
+	width: 528px;
+	height: 399px;
+	margin-top: 106px;
+	float: right;
+	margin-right: 46px;
+	border:0.5px solid lightgray;
+}
+.loginbox .inputlogin{
+width: 486px;
+height: 66px;
+margin-top: 46px;
+margin-left: 20px;
+border:0.5px solid lightgray;
+
+}
+.inputlogin input{
+	width: 450px;
+	height: 40px;
+	margin-top: 12px;
+	margin-left: 20px;
+	border: 0px;
+	outline: none;
+}
+.inputlogin:nth-child(2){
+margin-top: 30px;
+
+}
+.loginbox .checkbox{
+	width: 17px;
+	height: 17px;
+	margin-top: 20px;
+   margin-left: 20px;
+  background: url(img/checkout.png)no-repeat;
+  background-position: -2px -22px;
+
+}
+.loginbox  span{
+	font-size: 15px;
+	width: 150px;
+	color: gray;
+position: relative;
+top: -19px;
+left: 45px;
+}
+.loginbox a{
+	width: 60px;
+	font-size: 14px;
+	color: gray;
+	position: relative;
+	top: -19px;
+	right: -378px;
+}
+/*.loginbox .checkbox:hover{
+  background-position: -22px -22px;
+
+}*/
+.loginbox .bigbtn{
+	width: 486px;
+	height: 66px;
+	margin-top: 30px;
+	margin-left: 20px;
+	background: #009c4c;
+	text-align: center;
+    line-height: 66px;
+    cursor: pointer;
+
+}
+.loginbox .bigbtn span{
+	width: 50px;
+	height: 33px;
+font-size: 25px;
+color: white;
+position: relative;
+top: 0px;
+left: 0px;
+
+}

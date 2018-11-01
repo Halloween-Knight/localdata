@@ -1,0 +1,248 @@
+.food{
+width: 1200px;
+height: 679px;
+margin-top: 20px;
+/*background: pink;*/
+}
+.food>img{
+	width: 350px;
+	height: 679px;
+	float: left;
+	margin-left: 3px;
+	box-shadow: 0px 0px 2px 1px lightgray;
+}
+.foodchoose{
+	width: 840px;
+	height: 675px;
+	
+	float: right;
+}
+.foodchoose>li{
+	height: 337px;
+	width: 278px;
+	float: left;
+	border-top: 1px solid lightgray;
+	border-left: 1px solid lightgray;/*background: lightgray;*/	
+}
+.foodchoose>li:nth-child(3),.foodchoose>li:nth-child(6){
+	border-right: 1px solid lightgray;
+}
+.foodchoose>li:nth-child(4),.foodchoose>li:nth-child(5),.foodchoose>li:nth-child(6){
+	border-bottom: 1px solid lightgray;
+}
+.discount{width: 50px;
+height: 50px;
+float: left;
+margin-top: -18px;
+margin-left: -26px;
+}
+.foodbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1536596681346017.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+
+}
+.foodchoose>li>a{
+	width: 214px;
+	height: 42px;
+	font-size: 16px;
+float: left;
+margin-bottom: 10px;
+margin-left:39px;
+	cursor: pointer;
+}
+.foodchoose>li>p{
+	width: 214px;
+	height: 20px;
+	font-size: 12px;
+	margin-top: -3px;
+	color: #8d8d8d;
+	float: left;
+	margin-left: 36px;
+}
+.foodchoose>li>p:nth-of-type(2){
+	 height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #009c4c;
+}
+.foodchoose li p em{
+	list-style: none;
+	   color: #737373;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: normal;
+    text-decoration:line-through;
+}
+.peisong{
+	width: 150px;
+	height: 150px;
+	float: right;
+	background: url(img/areastock_2.png)no-repeat;
+	background-size: 150px 150px;
+	margin-top: 64px;
+	margin-right:-2px;
+}
+.foodchoose li .jionbuy{
+	float: right;
+margin-top: -30px;
+	margin-right: 32px;
+width: 40px;
+height: 40px;
+background: url(img/icons.png)no-repeat;
+background-position: -485px -200px;
+}
+/*.foodxiabox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1498471576955110.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+}
+.foodcheesebox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1537286672693562.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+}
+.foodwontonbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1537984152749308.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+}
+.foodbiscuitsbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1533635369540875.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+
+}
+.foodwaterbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1531244437428693.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+
+}*/
+/*图片分栏*/
+.delicacysubfield{
+	width: 1200px;
+	height: 96px;
+	margin-top: 20px;
+	background: url(img/meiweituijian.jpg)no-repeat;
+}
+.promotionsubfield{
+	width: 1200px;
+	height: 96px;
+	margin-top: 20px;
+	background: url(img/xianshicuxiao.jpg)no-repeat;
+}
+
+
+
+.foodbigwontonbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1442921602318723.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+}
+.foodcukebox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1466615937475028.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+}
+.foodbunbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1478266325288472.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+}
+.foodsparklingwaterbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1424962713402531.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+
+}
+.foodfruitsbox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1519740256560339.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+
+}
+.foodcakebox{
+	width: 214px;
+	height: 214px;
+	background: url(img/1537179978703180.jpg)no-repeat;
+	float: left;
+	margin-top: 21px;
+	margin-left: 32px;
+
+} 
+.scroll-top{
+	width: 55px;
+	height: 175px;
+	position: fixed;
+	right: 0px;
+	top: 50%;
+	display: none;
+
+}
+.scroll-top .finds{
+	width: 55px;
+	height: 38px;
+	background: rgba(0,0,0,0.3);
+	margin-bottom: 7px;
+
+
+
+}
+.finds:nth-child(1)>img{
+	width: 36px;
+	height: 34px;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+.finds:nth-child(2)>img{
+	width: 38px;
+	height: 30px;
+	margin-top: 3px;
+	margin-left: 8px;
+}
+.finds:nth-child(3)>img{
+	width: 39px;
+	height: 27px;
+	margin-top: 5.5px;
+	margin-left: 8px;
+}
+.finds:nth-child(4)>img{
+width: 27px;
+	height: 33px;
+	margin-top: 3px;
+	margin-left: 14px;
+}
